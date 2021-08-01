@@ -11,7 +11,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		27B6171EA8A94390A7A4BA78 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 597254DAFDB4497B87D9C324 /* antoutline.ttf */; };
+		332B773661B64AA8833779F9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 064199B51E804DD4A7D14BE9 /* Roboto-Regular.ttf */; };
+		61FDFBFED8D94219B0AB9A59 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA14B9605DC54126ACE7C24E /* Roboto-Bold.ttf */; };
 		69FC5E2525588FD909D508A9 /* libPods-qrgenerator-qrgeneratorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB2662D904C5D8C7027BC9C /* libPods-qrgenerator-qrgeneratorTests.a */; };
+		7768050C01914BE7A6F73166 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D162DC867F6240D4BCF5F351 /* antfill.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9F1817E15D99E63617CB7E0A /* libPods-qrgenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AEB1905A2D903B5D1BE7AF /* libPods-qrgenerator.a */; };
 /* End PBXBuildFile section */
@@ -30,6 +34,7 @@
 		00E356EE1AD99517003FC87E /* qrgeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrgeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* qrgeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qrgeneratorTests.m; sourceTree = "<group>"; };
+		064199B51E804DD4A7D14BE9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		07B27BB32BB3D2FAA8B72998 /* Pods-qrgenerator-qrgeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrgenerator-qrgeneratorTests.release.xcconfig"; path = "Target Support Files/Pods-qrgenerator-qrgeneratorTests/Pods-qrgenerator-qrgeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* qrgenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrgenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = qrgenerator/AppDelegate.h; sourceTree = "<group>"; };
@@ -38,11 +43,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = qrgenerator/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = qrgenerator/main.m; sourceTree = "<group>"; };
 		4CB2662D904C5D8C7027BC9C /* libPods-qrgenerator-qrgeneratorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrgenerator-qrgeneratorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		597254DAFDB4497B87D9C324 /* antoutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = antoutline.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antoutline.ttf"; sourceTree = "<group>"; };
 		72AEB1905A2D903B5D1BE7AF /* libPods-qrgenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qrgenerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FBF9AC08C578B51DE57A3AC /* Pods-qrgenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrgenerator.debug.xcconfig"; path = "Target Support Files/Pods-qrgenerator/Pods-qrgenerator.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = qrgenerator/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97CE3DE8A6DA45EFEC794C92 /* Pods-qrgenerator-qrgeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrgenerator-qrgeneratorTests.debug.xcconfig"; path = "Target Support Files/Pods-qrgenerator-qrgeneratorTests/Pods-qrgenerator-qrgeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9455E6540F63A36E89FE3BF /* Pods-qrgenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrgenerator.release.xcconfig"; path = "Target Support Files/Pods-qrgenerator/Pods-qrgenerator.release.xcconfig"; sourceTree = "<group>"; };
+		AA14B9605DC54126ACE7C24E /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D162DC867F6240D4BCF5F351 /* antfill.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = antfill.ttf; path = "../node_modules/@ant-design/icons-react-native/fonts/antfill.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -114,7 +122,6 @@
 				97CE3DE8A6DA45EFEC794C92 /* Pods-qrgenerator-qrgeneratorTests.debug.xcconfig */,
 				07B27BB32BB3D2FAA8B72998 /* Pods-qrgenerator-qrgeneratorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				74F6A3808AD2B3B9A4B00A60 /* Pods */,
+				F2BEA0079B26401FB15AC4D8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +155,18 @@
 				00E356EE1AD99517003FC87E /* qrgeneratorTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BEA0079B26401FB15AC4D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				064199B51E804DD4A7D14BE9 /* Roboto-Regular.ttf */,
+				AA14B9605DC54126ACE7C24E /* Roboto-Bold.ttf */,
+				D162DC867F6240D4BCF5F351 /* antfill.ttf */,
+				597254DAFDB4497B87D9C324 /* antoutline.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +221,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -245,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				332B773661B64AA8833779F9 /* Roboto-Regular.ttf in Resources */,
+				61FDFBFED8D94219B0AB9A59 /* Roboto-Bold.ttf in Resources */,
+				7768050C01914BE7A6F73166 /* antfill.ttf in Resources */,
+				27B6171EA8A94390A7A4BA78 /* antoutline.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,13 +455,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97CE3DE8A6DA45EFEC794C92 /* Pods-qrgenerator-qrgeneratorTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = qrgeneratorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,10 +483,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07B27BB32BB3D2FAA8B72998 /* Pods-qrgenerator-qrgeneratorTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = qrgeneratorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FH8V9LYGVN;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = qrgenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +523,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jonathansilva.qrgenerator;
 				PRODUCT_NAME = qrgenerator;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -511,6 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FH8V9LYGVN;
 				INFOPLIST_FILE = qrgenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,7 +549,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.jonathansilva.qrgenerator;
 				PRODUCT_NAME = qrgenerator;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -577,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -635,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
